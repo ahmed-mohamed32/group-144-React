@@ -26,10 +26,7 @@ function App() {
     </nav>
      
     <Routes>
-      <Route path='/header'  element={<Header />}/>
-      <Route path='/footer'  element={<Footer />} />
-      <Route path='/' element={<Home />} />
-      <Route path='*' element={<NotFound />} />
+     
 
       <Route path='/post'>
         <Route path='details/:id' element={<Details />} />
